@@ -1,0 +1,413 @@
+*, html, div, h1, h2, h3, h4, h5, h6 {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+    -webkit-padding-before: 0;
+    -webkit-padding-after: 0;
+    -webkit-padding-end: 0;
+    -moz-margin-before: 0;
+    -moz-margin-after: 0;
+    -moz-margin-start: 0;
+    -moz-margin-end: 0;
+    -moz-padding-start: 0;
+    -moz-padding-before: 0;
+    -moz-padding-after: 0;
+    -moz-padding-end: 0;
+}
+
+html {
+    font-family: "Open Sans", Helvetica, sans-serif;
+    letter-spacing: 0.075em;
+    line-height: 1.65em;
+    font-size: 16px;
+ 
+}
+
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#menu-toggle:hover {
+    margin-right: 1.25rem;
+    transition: 0.5s;
+}
+
+.bg-faded {
+    background-color: transparent;
+    color: white;
+}
+
+.navbar {
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    color: white;
+}
+
+.navbar-toggler {
+    color: white;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    visibility: hidden;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: white;
+}
+
+#menu-toggle{
+	color: white;
+	font-size: 1.4rem;
+	float: right;
+}
+#menu-toggle h3{
+	font-size: 1rem;
+}
+.navbar-toggler:focus {
+    outline: none;
+}
+
+#banner {
+    width: 100%;
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+.texta {
+    position: absolute;
+    top: 35%;
+    color: white;
+    display: block;
+}
+
+.texta .h3 {
+    border: 3px solid white;
+    border-right: 0;
+    border-left: 0;
+    display: inline-block;
+    font-size: 1.75rem;
+    opacity: 1;
+    position: relative;
+    z-index: 1;
+}
+
+.about {
+    color: white;
+    line-height: 1.8;
+    padding: 7rem 0 7rem 0;
+    background-color: rgb(33, 178, 166);
+}
+
+.about h3, #allProjsm h3 {
+    text-transform: uppercase;
+    padding: 0.35rem 1rem;
+    line-height: 1.8;
+}
+
+.about hr {
+    color: rgb(11%, 61%, 57%);
+    border: 2px solid;
+    margin-bottom: 2rem;
+}
+
+hr {
+    color: rgb(11%, 61%, 57%);
+    border: 0.125rem solid;
+    margin: 0;
+}
+
+i {
+    color: rgb(11%, 61%, 57%);
+    margin-top: 1.5rem;
+}
+
+i:hover {
+    transform: rotate(360deg);
+    transition: 0.6s;
+    color: white;
+}
+
+#proj {
+    overflow: hidden;
+    background-color: rgb(39, 48, 56);
+}
+
+article {
+    display: block;
+}
+
+.marr {
+    margin-left: 1rem;
+}
+
+.marl {
+    margin-left: -1rem;
+}
+
+.para {
+    padding: 4rem 4rem 0 4rem;
+    color: white;
+    line-height: 1.5;
+}
+
+.para h3 {
+    padding-bottom: 1.56rem;
+}
+
+.pic1 {
+    background-image: url('../images/pic01.jpg');
+}
+
+.pic2 {
+    background-image: url('../images/pic02.jpg');
+}
+
+.pic3 {
+    background-image: url('../images/pic03.jpg');
+}
+
+.rp {
+    height: 24rem;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.bar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 18.7rem;
+    margin-right: -18.7rem;
+    overflow: hidden;
+    display: none;
+}
+
+.bar .active {
+    right: 18.7rem;
+    width: 18.7rem;
+}
+
+.sidebar ul {
+    margin-bottom: 0.3rem;
+    list-style: none;
+}
+
+.sidebar li {
+    font-size: 1.25rem;
+    line-height:6.25rem;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 80%;
+    margin-left: 1.25rem;
+    border-bottom: 0.18rem solid rgb(11%, 61%, 57%)
+}
+
+.sidebar li:nth-child(1) {
+    border-bottom: none;
+}
+
+.sidebar a {
+    color: rgb(11%, 61%, 57%);
+    font-weight: 500;
+    padding-left: 0.625rem;
+}
+
+.sidebar a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar i {
+    margin: 0;
+    font-size: 1.25rem;
+    margin-right: 1rem;
+}
+
+#sidebar-wrapper {
+    padding-top: 0.625rem;
+    padding-right: 1.9rem;
+    padding-right: 1.9rem;
+    margin-bottom: -0.625rem;
+    font-weight: 600;
+    font-size: 09rem;
+    background-color: rgb(11%, 61%, 57%);
+    border-right: 0.0625rem solid rgb(11%, 61%, 57%);
+    top: 0;
+    bottom: 0;
+    z-index: 1000;
+    right: 0;
+    position: fixed;
+    width: 18.75rem;
+    margin-right: -18.75rem;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+#sidebar-wrapper.active {
+    background-color: #242C33;
+    right: 18.75rem;
+    width: 18.75rem;
+    padding-right: 0;
+    padding-top: 0;
+    border-left: 2px solid white;
+}
+
+#menu-close {
+    margin: 0;
+    padding: 0;
+}
+.animation:hover {
+	transform-origin: top;
+	animation: swing 0.5s ease-in-out;
+}
+@keyframes swing{
+	0%{
+		transform: rotate(1deg);
+	}
+	20%{
+		transform: rotate(-10deg);
+	}
+	
+	100%{
+		transform: rotate(0deg);
+	}
+
+
+
+}
+
+#allProj .col-md-8, #allProj .col-md-4, .col-lg-8 {
+    padding: 0;
+}
+
+#allProj {
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    background: #360033;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #360033, #0b8793);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #360033, #0b8793);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    overflow: hidden;
+}
+
+#allProjsm {
+    overflow: hidden;
+    padding-top: 1rem;
+    background-color: background: #360033;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #360033, #0b8793);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #360033, #0b8793);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#allProjsm h3{
+    color: white;
+}
+
+#allProjsm img {
+    padding: 0.625rem;
+    overflow: hidden;
+}
+
+#sideShow {
+    padding-top: 1.9rem;
+    overflow: hidden;
+    height: auto;
+}
+
+#sideShow h3 {
+    text-decoration: underline;
+    color: white;
+    padding: 3.125rem;
+}
+
+#allProj .col-md-2 {
+    padding: 0.3125rem;
+}
+
+
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+
+#map {
+    height: 27.5rem;
+    padding-right: 0.625rem;
+    float: right;
+    margin-top: 1.9rem;
+}
+
+#contMe {
+    background-image: url('../images/pic03.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 31.25rem;
+}
+
+.inpts {
+    height: inherit;
+}
+
+#contMe h3 {
+    color: white;
+    padding: 1rem;
+}
+input:focus{
+	outline: none;
+
+}
+textarea{
+	padding-left: 1.9rem;
+}
+.form-control:focus{
+	border-color: white;
+}
+footer{
+	min-height: 12.5rem;
+	max-height: 21.875rem;
+	background-color: #360033;}
+
+footer i{
+	padding: 1.56rem 0.3125rem 1.5625rem 0.3125rem;
+    margin:0.3125rem;
+    transform: scale(1.5, 1.5);
+    cursor: pointer;
+}
+footer p{ color: white;
+    margin: 0;
+
+}
+@media (max-width: 543px) { 
+#contMe{
+    height: 21.875rem
+    } }
+    @media (max-width: 767px) { #contMe{
+    height: 21.875rem }
+
+    }
